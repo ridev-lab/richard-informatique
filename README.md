@@ -1,4 +1,4 @@
-# Richard Informatique — Interactive Web Experience
+# Richard Informatique Interactive Web Experience
 
 **Site vitrine interactif · Front-end engineering · Creative development**
 
