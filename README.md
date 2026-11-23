@@ -4,7 +4,7 @@
 
 [![Source checks](https://github.com/ridev-lab/richard-informatique/actions/workflows/ci.yml/badge.svg)](https://github.com/ridev-lab/richard-informatique/actions/workflows/ci.yml)
 
-**[Voir le site en ligne](https://richard-informatique.com/)** · **[Architecture technique](docs/ARCHITECTURE.md)**
+**[Voir le site en ligne](https://richard-informatique.com/)** · **[Étude de cas technique](docs/CASE_STUDY.md)** · **[Architecture](docs/ARCHITECTURE.md)**
 
 ![Richard Informatique — identité visuelle du site](public/og-image.png)
 
@@ -82,7 +82,9 @@ Le build place les fichiers déployables dans `dist/`. Le workflow GitHub Action
 
 La composition et l'interaction du hero sont réparties entre la géométrie, les shaders et le pilotage GSAP. Le HTML conserve le contenu éditorial ; JavaScript fournit les animations et l'interactivité. Les dépendances sont déclarées dans `package.json` et les bibliothèques ne sont pas vendues avec le dépôt.
 
-[Lire l'explication de l'architecture](docs/ARCHITECTURE.md).
+Pour comprendre les décisions d'implémentation, les compromis techniques et la séparation entre GPU, scène Three.js et animations au défilement, lire **[l'étude de cas technique](docs/CASE_STUDY.md)**.
+
+[Lire aussi les notes d'architecture](docs/ARCHITECTURE.md).
 
 ## Contexte
 
