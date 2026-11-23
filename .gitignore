@@ -1,0 +1,17 @@
+# Build output and installed dependencies
+node_modules/
+dist/
+.vite/
+
+# Local and deployment files
+*.zip
+.env
+.env.*
+!.env.example
+
+# Logs and environment-specific files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
